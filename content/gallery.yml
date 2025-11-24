@@ -1,0 +1,66 @@
+title: Galería
+description: Explora nuestra colección de relojes personalizados en acrílico y otros materiales, diseñados exclusivamente para negocios y clientes especiales
+seo:
+  title: Galería - Relojes Personalizados
+  description: Descubre nuestra galería de relojes personalizados en acrílico y materiales premium, diseñados a medida para negocios y personas exclusivas
+photos:
+  - src: /img/galleries/img1.jpg
+    alt: Reloj Corporativo 1
+    category: Relojes Corporativos
+  - src: /img/galleries/img2.jpg
+    alt: Reloj de Acrílico 2
+    category: Acrílico Transparente
+  - src: /img/galleries/img3.jpg
+    alt: Reloj Personalizado 3
+    category: Diseños Exclusivos
+  - src: /img/galleries/img4.jpg
+    alt: Reloj Corporativo 4
+    category: Relojes Corporativos
+  - src: /img/galleries/img5.jpg
+    alt: Reloj de Madera 5
+    category: Madera Premium
+  - src: /img/galleries/img6.jpg
+    alt: Reloj de Acrílico 6
+    category: Acrílico Transparente
+  - src: /img/galleries/img7.jpg
+    alt: Reloj Personalizado 7
+    category: Diseños Exclusivos
+  - src: /img/galleries/img8.jpg
+    alt: Reloj Corporativo 8
+    category: Relojes Corporativos
+  - src: /img/galleries/img9.jpg
+    alt: Reloj de Madera 9
+    category: Madera Premium
+  - src: /img/galleries/img10.jpg
+    alt: Reloj Corporativo 10
+    category: Relojes Corporativos
+  - src: /img/galleries/img11.jpg
+    alt: Reloj de Acrílico 11
+    category: Acrílico Transparente
+  - src: /img/galleries/img12.jpg
+    alt: Reloj Personalizado 12
+    category: Diseños Exclusivos
+  - src: /img/galleries/img13.jpg
+    alt: Reloj Corporativo 13
+    category: Relojes Corporativos
+  - src: /img/galleries/img14.jpg
+    alt: Reloj de Madera 14
+    category: Madera Premium
+  - src: /img/galleries/img15.jpg
+    alt: Reloj de Acrílico 15
+    category: Acrílico Transparente
+  - src: /img/galleries/img16.jpg
+    alt: Reloj Personalizado 16
+    category: Diseños Exclusivos
+  - src: /img/galleries/img17.jpg
+    alt: Reloj Corporativo 17
+    category: Relojes Corporativos
+  - src: /img/galleries/img18.jpg
+    alt: Reloj de Madera 18
+    category: Madera Premium
+  - src: /img/galleries/img19.jpg
+    alt: Reloj de Acrílico 19
+    category: Acrílico Transparente
+  - src: /img/galleries/img20.jpg
+    alt: Reloj Personalizado 20
+    category: Diseños Exclusivos

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'PT Sans', 'Georgia', serif;
+}
+
+:root {
+  --ui-container: var(--container-4xl);
+
+  ::selection {
+    color: #282a30;
+    background-color: #c8c8c8;
+  }
+}
+
+.dark {
+  ::selection {
+    color: #ffffff;
+    background-color: #474747;
+  }
+}
+
+
+@layer components {
+  .linebreak {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+    background-image: linear-gradient(96.18deg, rgba(215, 196, 255, 0) 10%, rgba(200, 200, 200, 0.24) 50%, rgba(215, 196, 255, 0) 90%);
+  }
+
+  .text-white-shadow {
+    text-shadow: 0 4px 10px rgba(0, 87, 255, .2), 0 -4px 10px rgba(255, 90, 0, .15), 0 0 30px rgba(255, 255, 255, .2);
+  }
+}

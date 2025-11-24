@@ -1,0 +1,156 @@
+seo:
+  title: "Marcos Thompson - Artista de Relojes Artesanales"
+  description: "Bienvenido a mi portafolio. Soy Marcos Thompson, artista especializado en la creación de relojes únicos hechos a mano con materiales naturales y reciclados en mi taller de artesanía."
+title: "Hola soy Marcos, artesano de relojes con estilo"
+description: "Bienvenido a mi portafolio. Te invito a descubrir relojes únicos y hechos a mano, creados con materiales naturales y reciclados en mi taller de artesanía. Cada pieza fusiona lo moderno y lo elegante, pensada para personas que valoran la autenticidad y el diseño contemporáneo."
+hero:
+  links:
+    - label: "Explorar galería"
+      to: /gallery
+      color: "neutral"
+  images:
+    - src: /img/galleries/img1.jpg
+      alt: Random Image 1
+    - src: /img/galleries/img13.jpg
+      alt: Random Image 2
+    - src: /img/galleries/img8.jpg
+      alt: Random Image 3
+    - src: /img/galleries/img7.jpg
+      alt: Random Image 4
+    - src: /img/galleries/img9.jpg
+      alt: Random Image 5
+    - src: /img/galleries/img14.jpg
+      alt: Random Image 6
+    - src: /img/galleries/img12.jpg
+      alt: Random Image 7
+    - src: /img/galleries/img21.jpg
+      alt: Random Image 8
+    - src: /img/galleries/img23.jpg
+      alt: Random Image 9
+about:
+  title: "Sobre Mí"
+  description: |
+    Soy Marcos Herrera, diseñador de relojes artesanales. Mi pasión es transformar materiales naturales y reciclados, como madera y metales, en piezas de arte funcional. Busco que cada reloj no solo marque el tiempo, sino también distinga tu estilo y personalidad.
+experience:
+  title: Trayectoria
+  items:
+    - position: "Maestro Relojero en"
+      date: "2020 - Presente"
+      company:
+        name: "Taller de Marcos"
+        logo: "i-heroicons-clock"
+        url: "#"
+        color: "#8B5CF6"
+    - position: "Instructor de Artesanía en"
+      date: "2018 - 2020"
+      company:
+        name: "Escuela de Artes y Oficios"
+        logo: "i-heroicons-academic-cap"
+        url: "#"
+        color: "#FF6363"
+    - position: "Senior UX/UI Designer at"
+      date: "2020 - 2021"
+      company:
+        name: Linear
+        logo: "i-simple-icons-linear"
+        url: "https://linear.app"
+        color: "#5E6AD2"
+testimonials:
+  - quote: "El reloj que me diseñó Marcos es simplemente impresionante. La atención al detalle y la calidad del acrílico son excepcionales. Recibo elogios cada vez que lo uso."
+    author:
+      name: 'Carlos M.'
+      description: 'Coleccionista de relojes'
+      avatar:
+        src: '/img/avatars/avatar1.jpg'
+  - quote: "Trabajar con Marcos en un diseño personalizado fue una experiencia increíble. Capturó exactamente lo que quería y el resultado superó todas mis expectativas. ¡Mi reloj es una verdadera obra de arte!"
+    author:
+      name: 'Ana R.'
+      description: 'Cliente frecuente'
+      avatar:
+        src: '/img/avatars/avatar2.jpg'
+  - quote: "La pasión de Marcos por su oficio se nota en cada pieza que crea. Los mecanismos son de primera calidad y el diseño es impecable. Definitivamente recomiendo sus relojes a cualquier amante de la relojería fina."
+    author:
+      name: 'Diego V.'
+      description: 'Experto en relojería'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+story:
+  title: "Historias del Taller"
+  description: "Detrás de cada reloj hay una idea, una inspiración y un reto superado. Comparto mi proceso creativo, las historias que nacen en el taller y cómo cada detalle se convierte en un homenaje al diseño contemporáneo y sustentable."
+faq:
+  title: Preguntas frecuentes
+  description: Respuestas a preguntas comunes sobre mi proceso y servicios.
+  categories:
+    - title: Sobre mí y mis relojes
+      questions:
+        - label: ¿Qué hace únicos a mis relojes?
+          content: |
+            Cada reloj que diseño es una pieza exclusiva en acrílico, creada con detalle y pensada para reflejar la personalidad de quien lo lleva. No produzco en serie: cada diseño tiene su propia historia.
+        - label: ¿Qué materiales utilizo?
+          content: |
+            Trabajo con acrílico de alta calidad y mecanismos de cuarzo de precisión. El acrílico me permite lograr acabados brillantes, resistentes y con un estilo moderno y elegante.
+        - label: ¿Cómo garantizo la autenticidad?
+          content: |
+            Cada reloj incluye un certificado de autenticidad y un número de serie único que confirma que es una pieza original de mi marca.
+    - title: Personalización y pedidos
+      questions:
+        - label: ¿Puedo personalizar mi reloj?
+          content: |
+            Sí. Me encanta trabajar en conjunto con mis clientes para elegir colores, acabados y grabados especiales. Así logramos un reloj que sea verdaderamente tuyo.
+        - label: ¿Cuánto tarda un diseño personalizado?
+          content: |
+            Generalmente entre 2 y 4 semanas, dependiendo de la complejidad del diseño. Prefiero tomarme el tiempo necesario para asegurar un resultado impecable.
+        - label: ¿Cómo puedo hacer un pedido?
+          content: |
+            Puedes escribirme directamente por WhatsApp, Instagram o correo electrónico. Te guiaré paso a paso hasta definir tu diseño o elegir un modelo de mi colección.
+    - title: Envíos, garantía y cuidado
+      questions:
+        - label: ¿Hago envíos internacionales?
+          content: |
+            Sí. Envío mis relojes a cualquier parte del mundo, con embalaje seguro y seguimiento para que recibas tu pieza en perfectas condiciones.
+        - label: ¿Cuál es el tiempo de entrega?
+          content: |
+            Modelos disponibles: entre 5 y 7 días hábiles.  Personalizados: entre 2 y 4 semanas.
+        - label: ¿Qué garantía ofrezco?
+          content: |
+            Todos mis relojes tienen 12 meses de garantía sobre el mecanismo. Además, ofrezco servicio de mantenimiento y pulido para que tu reloj conserve siempre su brillo.
+        - label: ¿Cómo debo cuidar mi reloj?
+          content: |
+            Te recomiendo evitar golpes fuertes y mantenerlo en su estuche cuando no lo uses. Si necesitas limpieza o mantenimiento, puedes contactarme y yo mismo me encargo.
+HeroGrid:
+  images1:
+      src: /img/galleries/img6.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400
+  images2:
+      src: /img/galleries/img1.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400
+  images3:
+      src: /img/galleries/img18.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400
+  images4:
+      src: /img/galleries/img7.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400
+  images5:
+      src: /img/galleries/img22.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400  
+  images6:
+      src: /img/galleries/img14.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400  
+  images7:
+      src: /img/galleries/img24.jpg
+      alt: Image 1
+      width: 1600
+      height: 2400
+
