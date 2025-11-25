@@ -1,14 +1,14 @@
 ---
 title: "Chronos Élite: Diseñando un Reloj de Pared de Lujo en Acrílico"
 description: La historia de cómo transformé la visión de una prestigiosa relojería suiza en una pieza de arte funcional que redefine el concepto de tiempo y elegancia.
-date: 2025-04-23
-image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 8
 author:
   name: Emma Thompson
   avatar:
     src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     alt: Emma Thompson
+date: 2025-04-23T00:00:00.000Z
+image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+minRead: 8
 ---
 
 Cuando recibí la llamada de Alessandro Moretti, director creativo de Chronos Élite, una de las relojería más exclusivas de Ginebra, sabía que este proyecto sería diferente a todo lo que había diseñado antes. No se trataba solo de crear un reloj de pared, sino de materializar 150 años de tradición relojera en una pieza contemporánea de acrílico que adornaría las boutiques más prestigiosas del mundo.
@@ -22,6 +22,8 @@ Chronos Élite no es una relojería cualquiera. Fundada en 1875, la marca ha sid
 El desafío era claro pero complejo: diseñar un reloj de pared en acrílico de alta gama que pudiera colocarse en sus 23 boutiques alrededor del mundo, desde París hasta Dubái, desde Nueva York hasta Tokio. El reloj debía incorporar su icónico logo, reflejar su herencia suiza, y al mismo tiempo sentirse moderno y exclusivo.
 
 ## Fase 1: Inmersión en el Mundo de la Alta Relojería
+
+![Relojes Históricos](https://images.pexels.com/photos/2788875/pexels-photo-2788875.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)*Archivo histórico de Chronos Élite - 150 años de tradición relojera*
 
 ### El Viaje a Ginebra
 
@@ -47,6 +49,8 @@ Alessandro me presentó un brief detallado:
 - **Producción**: Edición limitada de 100 piezas numeradas
 
 ## Fase 2: Conceptualización y Exploración Creativa
+
+![Proceso de Diseño](https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)*Bocetos iniciales y exploración de conceptos en el estudio de diseño*
 
 ### Los Primeros Bocetos
 
@@ -82,6 +86,10 @@ Establecí cuatro pilares para guiar cada decisión:
 
 ## Fase 3: Prototipado y Refinamiento
 
+![Trabajo con Acrílico](https://images.pexels.com/photos/2210270/pexels-photo-2210270.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1){height="400"}*Proceso de fabricación del acrílico de alta calidad en Suiza*
+
+![Example Persona](https://images.pexels.com/photos/2210270/pexels-photo-2210270.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1){ width="100" height="800" .rounded-lg }
+::
 ### Renders 3D y Presentación
 
 Creé renders fotorrealistas en 3D que capturaban cada detalle: la forma en que la luz atravesaba las capas de acrílico, cómo el logo grabado creaba sutiles refracciones, el brillo cromado de los índices horarios.
@@ -144,6 +152,8 @@ El reloj de pared Chronos Élite quedó definido así:
 
 ## Fase 5: Lanzamiento y Recepción
 
+![Detalles del Reloj](https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress\&cs=tinysrgb\&w=1260\&h=750\&dpr=1)*Close-up del mecanismo suizo y los acabados de precisión*
+
 ### La Presentación en Baselworld
 
 Chronos Élite decidió presentar el reloj de pared en Baselworld, la feria de relojería más prestigiosa del mundo. Diseñamos una instalación especial: una sala oscura donde 12 relojes iluminados flotaban en pedestales transparentes, creando una experiencia casi etérea.
@@ -168,7 +178,7 @@ Seis meses después del lanzamiento, los resultados superaron todas las expectat
 - **Valor de reventa**: Algunos relojes se revendieron en subastas por hasta $28,000
 - **Reconocimiento**: Ganador del Red Dot Design Award y el iF Design Award
 - **Impacto en marca**: 34% de aumento en visitas a boutiques Chronos Élite
-- **Prensa**: Artículos en Wallpaper*, Dezeen, Architectural Digest y Hodinkee
+- **Prensa**: Artículos en Wallpaper\*, Dezeen, Architectural Digest y Hodinkee
 
 ### El Legado del Proyecto
 
