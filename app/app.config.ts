@@ -23,10 +23,23 @@ export default defineAppConfig({
     },
     pageHero: {
       slots: {
-        container: 'py-18 sm:py-24 lg:py-32',
+        container: 'py-18 sm:py-24 lg:py-12',
         title: 'mx-auto max-w-xl text-pretty text-3xl sm:text-4xl lg:text-5xl',
         description: 'mt-2 text-md mx-auto max-w-2xl text-pretty sm:text-md text-muted'
       }
+    },
+    navigationMenu: {
+      // ... your existing slots and variants ...
+      compoundVariants: [
+        // Add this compound variant to your existing array
+        {
+          active: true,
+          highlight: true,
+          class: {
+            link: 'after:bg-gradient-to-r after:from-current/0 after:via-current/40 after:to-current/0'
+          }
+        }
+      ]
     }
   },
   footer: {
