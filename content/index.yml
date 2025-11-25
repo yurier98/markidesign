@@ -1,82 +1,69 @@
-seo:
-  title: "Marcos Thompson - Artista de Relojes Artesanales"
-  description: "Bienvenido a mi portafolio. Soy Marcos Thompson, artista especializado en la creación de relojes únicos hechos a mano con materiales naturales y reciclados en mi taller de artesanía."
-title: "Hola soy Marcos, artesano de relojes con estilo"
-description: "Bienvenido a mi portafolio. Te invito a descubrir relojes únicos y hechos a mano, creados con materiales naturales y reciclados en mi taller de artesanía. Cada pieza fusiona lo moderno y lo elegante, pensada para personas que valoran la autenticidad y el diseño contemporáneo."
-hero:
-  links:
-    - label: "Explorar galería"
-      to: /gallery
-      color: "neutral"
-  images:
-    - src: /img/galleries/img1.jpg
-      alt: Random Image 1
-    - src: /img/galleries/img13.jpg
-      alt: Random Image 2
-    - src: /img/galleries/img8.jpg
-      alt: Random Image 3
-    - src: /img/galleries/img7.jpg
-      alt: Random Image 4
-    - src: /img/galleries/img9.jpg
-      alt: Random Image 5
-    - src: /img/galleries/img14.jpg
-      alt: Random Image 6
-    - src: /img/galleries/img12.jpg
-      alt: Random Image 7
-    - src: /img/galleries/img21.jpg
-      alt: Random Image 8
-    - src: /img/galleries/img23.jpg
-      alt: Random Image 9
+title: Hola soy Marcos, artesano de relojes con estilo
+HeroGrid:
+  images1:
+    src: /img/galleries/img7.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images2:
+    src: /img/galleries/img1.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images3:
+    src: /img/galleries/img18.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images4:
+    src: /img/galleries/img22.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images5:
+    src: /img/galleries/img15.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images6:
+    src: /img/galleries/img6.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
+  images7:
+    src: /img/galleries/img24.jpg
+    alt: Image 1
+    width: 1600
+    height: 2400
 about:
-  title: "Sobre Mí"
+  title: Sobre Mí
   description: |
     Soy Marcos Herrera, diseñador de relojes artesanales. Mi pasión es transformar materiales naturales y reciclados, como madera y metales, en piezas de arte funcional. Busco que cada reloj no solo marque el tiempo, sino también distinga tu estilo y personalidad.
+description: Bienvenido a mi portafolio. Te invito a descubrir relojes únicos y hechos a mano, creados con materiales naturales y reciclados en mi taller de artesanía. Cada pieza fusiona lo moderno y lo elegante, pensada para personas que valoran la autenticidad y el diseño contemporáneo.
 experience:
   title: Trayectoria
   items:
-    - position: "Maestro Relojero en"
-      date: "2020 - Presente"
+    - position: Maestro Relojero en
+      date: 2020 - Presente
       company:
-        name: "Taller de Marcos"
-        logo: "i-heroicons-clock"
+        name: Taller de Marcos
+        logo: i-heroicons-clock
         url: "#"
         color: "#8B5CF6"
-    - position: "Instructor de Artesanía en"
-      date: "2018 - 2020"
+    - position: Instructor de Artesanía en
+      date: 2018 - 2020
       company:
-        name: "Escuela de Artes y Oficios"
-        logo: "i-heroicons-academic-cap"
+        name: Escuela de Artes y Oficios
+        logo: i-heroicons-academic-cap
         url: "#"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: Senior UX/UI Designer at
+      date: 2020 - 2021
       company:
         name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        logo: i-simple-icons-linear
+        url: https://linear.app
         color: "#5E6AD2"
-testimonials:
-  - quote: "El reloj que me diseñó Marcos es simplemente impresionante. La atención al detalle y la calidad del acrílico son excepcionales. Recibo elogios cada vez que lo uso."
-    author:
-      name: 'Carlos M.'
-      description: 'Coleccionista de relojes'
-      avatar:
-        src: '/img/avatars/avatar1.jpg'
-  - quote: "Trabajar con Marcos en un diseño personalizado fue una experiencia increíble. Capturó exactamente lo que quería y el resultado superó todas mis expectativas. ¡Mi reloj es una verdadera obra de arte!"
-    author:
-      name: 'Ana R.'
-      description: 'Cliente frecuente'
-      avatar:
-        src: '/img/avatars/avatar2.jpg'
-  - quote: "La pasión de Marcos por su oficio se nota en cada pieza que crea. Los mecanismos son de primera calidad y el diseño es impecable. Definitivamente recomiendo sus relojes a cualquier amante de la relojería fina."
-    author:
-      name: 'Diego V.'
-      description: 'Experto en relojería'
-      avatar:
-        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
-story:
-  title: "Historias del Taller"
-  description: "Detrás de cada reloj hay una idea, una inspiración y un reto superado. Comparto mi proceso creativo, las historias que nacen en el taller y cómo cada detalle se convierte en un homenaje al diseño contemporáneo y sustentable."
 faq:
   title: Preguntas frecuentes
   description: Respuestas a preguntas comunes sobre mi proceso y servicios.
@@ -117,40 +104,52 @@ faq:
         - label: ¿Cómo debo cuidar mi reloj?
           content: |
             Te recomiendo evitar golpes fuertes y mantenerlo en su estuche cuando no lo uses. Si necesitas limpieza o mantenimiento, puedes contactarme y yo mismo me encargo.
-HeroGrid:
-  images1:
-      src: /img/galleries/img6.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400
-  images2:
-      src: /img/galleries/img1.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400
-  images3:
-      src: /img/galleries/img18.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400
-  images4:
-      src: /img/galleries/img7.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400
-  images5:
-      src: /img/galleries/img22.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400  
-  images6:
-      src: /img/galleries/img14.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400  
-  images7:
-      src: /img/galleries/img24.jpg
-      alt: Image 1
-      width: 1600
-      height: 2400
-
+hero:
+  links:
+    - label: Explorar galería
+      to: /gallery
+      color: neutral
+  images:
+    - src: /img/galleries/img1.jpg
+      alt: Random Image 1
+    - src: /img/galleries/img13.jpg
+      alt: Random Image 2
+    - src: /img/galleries/img8.jpg
+      alt: Random Image 3
+    - src: /img/galleries/img7.jpg
+      alt: Random Image 4
+    - src: /img/galleries/img9.jpg
+      alt: Random Image 5
+    - src: /img/galleries/img14.jpg
+      alt: Random Image 6
+    - src: /img/galleries/img12.jpg
+      alt: Random Image 7
+    - src: /img/galleries/img21.jpg
+      alt: Random Image 8
+    - src: /img/galleries/img23.jpg
+      alt: Random Image 9
+seo:
+  title: Marcos Thompson - Artista de Relojes Artesanales
+  description: Bienvenido a mi portafolio. Soy Marcos Thompson, artista especializado en la creación de relojes únicos hechos a mano con materiales naturales y reciclados en mi taller de artesanía.
+story:
+  title: Historias del Taller
+  description: Detrás de cada reloj hay una idea, una inspiración y un reto superado. Comparto mi proceso creativo, las historias que nacen en el taller y cómo cada detalle se convierte en un homenaje al diseño contemporáneo y sustentable.
+testimonials:
+  - quote: El reloj que me diseñó Marcos es simplemente impresionante. La atención al detalle y la calidad del acrílico son excepcionales. Recibo elogios cada vez que lo uso.
+    author:
+      name: Carlos M.
+      description: Coleccionista de relojes
+      avatar:
+        src: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80
+  - quote: Trabajar con Marcos en un diseño personalizado fue una experiencia increíble. Capturó exactamente lo que quería y el resultado superó todas mis expectativas. ¡Mi reloj es una verdadera obra de arte!
+    author:
+      name: Ana R.
+      description: Cliente frecuente
+      avatar:
+        src: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80
+  - quote: La pasión de Marcos por su oficio se nota en cada pieza que crea. Los mecanismos son de primera calidad y el diseño es impecable. Definitivamente recomiendo sus relojes a cualquier amante de la relojería fina.
+    author:
+      name: Diego V.
+      description: Experto en relojería
+      avatar:
+        src: https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80

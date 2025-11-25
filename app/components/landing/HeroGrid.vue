@@ -36,35 +36,36 @@ defineProps({
 const defaultImage = 'img/placeholder.jpg'
 const gridRef = ref<HTMLElement | null>(null)
 const scrollProgress = ref(0)
+const directions = [1, -1, 1, 1, -1, 1, -1]
 
 // Detectar scroll para animaciones
 const handleScroll = () => {
   if (!gridRef.value) return
-  
+
   const rect = gridRef.value.getBoundingClientRect()
   const windowHeight = window.innerHeight
   const elementTop = rect.top
   const elementHeight = rect.height
-  
+
   // Calcular progreso del scroll (0 a 1)
   const start = windowHeight
   const end = -elementHeight
   const progress = Math.max(0, Math.min(1, (start - elementTop) / (start - end)))
-  
+
   scrollProgress.value = progress
-  
+
   // Aplicar transformaciones basadas en el scroll con más intensidad
   const containers = gridRef.value.querySelectorAll('.image-container')
   containers.forEach((container, index) => {
     const element = container as HTMLElement
-    const direction = index % 2 === 0 ? 1 : -1
-    // Aumentar el movimiento de 20px a 60px para hacerlo más visible
-    const offset = Math.sin(progress * Math.PI) * 60 * direction
+    const direction = directions[index] || 1
+    // Aumentar el movimiento de 20px a 30px para hacerlo más visible
+    const offset = Math.sin(progress * Math.PI) * 30 * direction
     // Agregar rotación sutil para más dinamismo
     const rotation = Math.sin(progress * Math.PI * 2) * 3 * direction
     // Agregar escala para efecto de profundidad
     const scale = 1 + Math.sin(progress * Math.PI) * 0.05
-    
+
     element.style.transform = `translateY(${offset}px) rotate(${rotation}deg) scale(${scale})`
   })
 }
@@ -80,7 +81,10 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div ref="gridRef" class="not-prose mt-16 sm:mt-24 content-visibility-visible contain-intrinsic-size-[auto_600px]">
+  <div
+    ref="gridRef"
+    class="not-prose mt-16 sm:mt-24 content-visibility-visible contain-intrinsic-size-[auto_600px]"
+  >
     <div class="flex items-center justify-center gap-5 py-4 sm:gap-6 relative z-20">
       <!-- col1 -->
       <div
@@ -236,7 +240,7 @@ onUnmounted(() => {
 
 /* Contenedor de imagen con transición suave */
 .image-container {
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
               filter 0.3s ease;
   cursor: pointer;
@@ -260,8 +264,6 @@ onUnmounted(() => {
     transform: translateY(-25px) rotate(2deg) scale(1.03);
   }
 }
-
-
 
 /* Efecto hover en la imagen */
 .image-hover {
@@ -306,13 +308,11 @@ onUnmounted(() => {
 
 /* Transición suave para el modo oscuro */
 .dark .image-container {
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
               box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dark .image-container:hover {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
-
-
 </style>
