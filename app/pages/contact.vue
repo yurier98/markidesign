@@ -42,24 +42,5 @@ useSeoMeta({
     </UPageHero>
 
     <ContactSection />
-
-    <UPageSection
-      :ui="{
-        container: '!pt-0'
-      }"
-    >
-      <MDC
-        :value="page.content"
-        unwrap="p"
-      />
-      <div class="flex flex-row justify-center items-center py-10 space-x-[-2rem]">
-        <PolaroidItem
-          v-for="(image, index) in page.images"
-          :key="index"
-          :image="image"
-          :index
-        />
-      </div>
-    </UPageSection>
   </UPage>
 </template>
