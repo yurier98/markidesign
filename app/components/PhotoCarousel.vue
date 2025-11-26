@@ -44,16 +44,29 @@ function selectPhoto(index: number) {
 
 <template>
   <div class="w-full">
-    <UCarousel ref="carouselRef" v-slot="{ item, index }" :items="photos" :ui="{
-      item: 'basis-1/4 sm:basis-1/5 md:basis-1/6 lg:basis-1/7',
-      container: 'gap-3'
-    }" arrows>
-      <button class="w-full aspect-square rounded-lg overflow-hidden border-2 transition-all duration-200"
+    <UCarousel
+      ref="carouselRef"
+      v-slot="{ item, index }"
+      :items="photos"
+      :ui="{
+        item: 'basis-1/4 sm:basis-1/5 md:basis-1/6 lg:basis-1/7',
+        container: 'gap-3'
+      }"
+      arrows
+    >
+      <button
+        class="w-full aspect-square rounded-lg overflow-hidden border-2 transition-all duration-200"
         :class="index === selectedIndex
           ? 'border-primary-500 ring-2 ring-primary-200 dark:ring-primary-800 scale-105'
-          : 'border-gray-200 dark:border-gray-700 opacity-60 hover:opacity-100 hover:border-gray-300 dark:hover:border-gray-600'" @click="selectPhoto(index)">
-        <img :src="item.src" :alt="item.alt || `Thumbnail ${index + 1}`" class="w-full h-full object-cover"
-          draggable="false">
+          : 'border-gray-200 dark:border-gray-700 opacity-60 hover:opacity-100 hover:border-gray-300 dark:hover:border-gray-600'"
+        @click="selectPhoto(index)"
+      >
+        <img
+          :src="item.src"
+          :alt="item.alt || `Thumbnail ${index + 1}`"
+          class="w-full h-full object-cover"
+          draggable="false"
+        >
       </button>
     </UCarousel>
   </div>
