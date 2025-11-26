@@ -24,14 +24,26 @@ const isOpen = computed({
 })
 
 const index = ref(props.startIndex)
-watch(() => props.startIndex, (v) => { index.value = v ?? 0 })
-watch(() => props.open, (v) => { if (v) index.value = props.startIndex })
+watch(() => props.startIndex, (v) => {
+  index.value = v ?? 0
+})
+watch(() => props.open, (v) => {
+  if (v) index.value = props.startIndex
+})
 
 const hasMultiple = computed(() => props.images?.length > 1)
 
-const close = () => { isOpen.value = false }
-const next = () => { if (!hasMultiple.value) return; index.value = (index.value + 1) % props.images.length }
-const prev = () => { if (!hasMultiple.value) return; index.value = (index.value - 1 + props.images.length) % props.images.length }
+const close = () => {
+  isOpen.value = false
+}
+const next = () => {
+  if (!hasMultiple.value) return
+  index.value = (index.value + 1) % props.images.length
+}
+const prev = () => {
+  if (!hasMultiple.value) return
+  index.value = (index.value - 1 + props.images.length) % props.images.length
+}
 
 // Keyboard support
 onMounted(() => {
@@ -52,13 +64,13 @@ const touching = ref(false)
 const THRESHOLD = 60
 
 function onTouchStart(e: TouchEvent) {
-  if (!isOpen.value) return
+  if (!isOpen.value || !e.touches[0]) return
   touching.value = true
   touchStartX.value = e.touches[0].clientX
   touchDeltaX.value = 0
 }
 function onTouchMove(e: TouchEvent) {
-  if (!touching.value) return
+  if (!touching.value || !e.touches[0]) return
   touchDeltaX.value = e.touches[0].clientX - touchStartX.value
 }
 function onTouchEnd() {
@@ -74,7 +86,12 @@ const transformStyle = computed(() => touching.value ? `translateX(${touchDeltaX
 
 <template>
   <Teleport to="body">
-    <Transition enter-active-class="transition-opacity duration-200" leave-active-class="transition-opacity duration-200" enter-from-class="opacity-0" leave-to-class="opacity-0">
+    <Transition
+      enter-active-class="transition-opacity duration-200"
+      leave-active-class="transition-opacity duration-200"
+      enter-from-class="opacity-0"
+      leave-to-class="opacity-0"
+    >
       <div
         v-if="isOpen"
         class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4"
@@ -130,7 +147,10 @@ const transformStyle = computed(() => touching.value ? `translateX(${touchDeltaX
         />
 
         <!-- Image -->
-        <div class="max-w-full max-h-full" @click.stop>
+        <div
+          class="max-w-full max-h-full"
+          @click.stop
+        >
           <img
             :key="index"
             :src="images[index]?.src"
