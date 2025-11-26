@@ -41,9 +41,9 @@ export default defineNuxtConfig({
     // Git repository configuration (owner and repo are required)
     repository: {
       provider: 'github', // 'github' or 'gitlab'
-      owner: 'your-username', // your GitHub/GitLab username or organization
-      repo: 'your-repo', // your repository name
-      branch: 'main', // the branch to commit to (default: 'main')
+      owner: 'yurier98', // your GitHub/GitLab username or organization
+      repo: 'markidesign', // your repository name
+      branch: 'main' // the branch to commit to (default: 'main')
     }
   }
 })
