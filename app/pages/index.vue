@@ -23,12 +23,15 @@ useSeoMeta({
 <template>
   <UPage v-if="page">
     <!-- background -->
-    <div v-if="colorMode.value === 'dark'" class="absolute inset-0 w-full h-full">
+    <div
+      v-if="colorMode.value === 'dark'"
+      class="absolute inset-0 w-full h-full"
+    >
       <img
         src="/hero/img1.webp"
         alt="Image background"
         class="object-cover w-full h-full blur-[70px] brightness-[.2] will-change-[filter]"
-      />
+      >
     </div>
     <LandingHero :page />
     <LandingHeroGrid
