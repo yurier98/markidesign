@@ -35,8 +35,9 @@ useSeoMeta({
     >
       <img
         class="sm:rotate-4 size-36 rounded-lg ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-        :src="global.picture?.light!" :alt="global.picture?.alt! || 'Profile picture'"
-      />
+        :src="global.picture?.light!"
+        :alt="global.picture?.alt! || 'Profile picture'"
+      >
     </UPageHero>
     <UPageSection
       :ui="{
