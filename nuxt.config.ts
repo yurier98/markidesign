@@ -37,6 +37,8 @@ export default defineNuxtConfig({
     }
   },
 
+  ssr: false, // Solo modo SPA
+
   studio: {
     // Git repository configuration (owner and repo are required)
     repository: {

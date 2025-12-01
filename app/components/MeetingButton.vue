@@ -26,11 +26,5 @@ defineProps({
         />
       </NuxtLink>
     </SpotlightButton>
-    <UButton
-      color="neutral"
-      :to="meetingLink"
-      trailing-icon="heroicons:calendar-days"
-      label="Available for new projects"
-    />
   </div>
 </template>
